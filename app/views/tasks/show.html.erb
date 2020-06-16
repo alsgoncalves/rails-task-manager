@@ -1,0 +1,8 @@
+<h1><%= @task.title %></h1>
+
+<div>
+  <%= @task.details %>
+</div>
+
+<p> Is this task completed? <%= @task.completed %></p>
+<%= link_to "Back to List", tasks_path %>
